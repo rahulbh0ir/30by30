@@ -1,0 +1,47 @@
+body{
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+
+kbd {
+    display: block;
+    font-size: 2rem;
+
+}
+
+.sound{
+    color: lightgreen;
+    letter-spacing: .1rem;
+}  
+
+
+.keys{
+    display: flex ;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.key{
+    border: .2rem solid black;
+    border-radius: .5rem;
+    margin: .5rem;
+    font-size: 1rem;
+    padding: 1rem .2rem;
+    width: 5rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.2);
+
+    transition: all .07s ease;
+    
+}
+
+.playing{
+    transform: scale(1.5);
+    border-color: yellowgreen;
+    box-shadow: 0 0 1rem limegreen;
+
+}
